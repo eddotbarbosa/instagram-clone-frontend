@@ -1,0 +1,82 @@
+@import '../../styles/theme.module.scss';
+
+.card-login {
+  background-color: $white-one;
+  border: 1px solid $gray-one;
+  border-radius: 1px;
+}
+
+.card-signin {
+  background-color: $white-one;
+  border: 1px solid $gray-one;
+  border-radius: 1px;
+  padding: 20px 0px;
+}
+
+.form-field {
+  background-color: $white-one;
+  color: $gray-two;
+  outline: none;
+  border: 1px solid $gray-one;
+  border-radius: 3px;
+  padding: 10px;
+
+  &::placeholder {
+    color: $gray-two;
+  }
+}
+
+.form-button {
+  border: none;
+  outline: none;
+  background-color: $blue-one;
+  color: white;
+  padding: 7px 0px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.bar {
+  background-color: $gray-one;
+  height: 1px;
+}
+
+.or {
+  color: $gray-two;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.facebook-login-button {
+  border: none;
+  background: none;
+  color: $blue-two;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.alert {
+  color: $red-one;
+  text-align: center;
+  font-size: 14px;
+}
+
+.forgot-password {
+  color: $blue-two;
+  font-size: 12px;
+}
+
+.signup-link {
+  color: $blue-one;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.badge {
+  width: 100%;
+  height: auto;
+  max-width: 306px;
+  max-height: 90px;
+  vertical-align: middle;
+}

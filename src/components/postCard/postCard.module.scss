@@ -1,0 +1,106 @@
+@import '../../styles/theme.module.scss';
+
+.profile-image {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+.post-header {
+  padding: 16px;
+  border-bottom: 1px solid $gray-one;
+  background-color: $white-one;
+}
+
+.main-container {
+  border: 1px solid $gray-one;
+}
+
+.post-comment {
+  padding: 16px;
+}
+
+.date {
+  font-size: 12px;
+  color: $gray-two;
+}
+
+.post-description {
+  padding: 16px;
+}
+
+.text-button {
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+  color: $gray-two;
+  font-weight: bold;
+}
+
+.comment-list {
+  list-style-type: none;
+  height: 370px;
+  overflow: scroll;
+  border-bottom: 1px solid $gray-one;
+  background-color: $white-one;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.picture-infos {
+  padding: 16px;
+  border-bottom: 1px solid $gray-one;
+  background-color: $white-one;
+}
+
+.comment {
+  padding: 16px;
+  background-color: $white-one;
+}
+
+.icon-button {
+  background: none;
+  border-style: none;
+  border: none;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.input-text {
+  background: none;
+  border-style: none;
+  border: none;
+  cursor: pointer;
+  color: $gray-two;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.submit-button {
+  background: none;
+  border-style: none;
+  border: none;
+  cursor: pointer;
+  color: $blue-one;
+}
+
+.likes-counter {
+  font-weight: bold;
+  color: $black-one;
+}
+
+.black-link {
+  color: $black-one;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

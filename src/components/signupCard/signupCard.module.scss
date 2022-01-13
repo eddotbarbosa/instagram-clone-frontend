@@ -1,0 +1,100 @@
+@import '../../styles/theme.module.scss';
+
+.card-signup {
+  background-color: $white-one;
+  border: 1px solid $gray-one;
+  border-radius: 1px;
+}
+
+.card-login {
+  background-color: $white-one;
+  border: 1px solid $gray-one;
+  border-radius: 1px;
+  padding: 20px 0px;
+}
+
+.signup-card-header {
+  color: $gray-two;
+  text-align: center;
+  font-size: 17px;
+}
+
+.facebook-login-button {
+  border: none;
+  background: $blue-one;
+  color: $white-one;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 7px 0px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 13px;
+  outline: none;
+}
+
+.bar {
+  background-color: $gray-one;
+  height: 2px;
+}
+
+.or {
+  color: $gray-two;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.form-field {
+  background-color: $white-one;
+  color: $black-one;
+  outline: none;
+  border: 1px solid $gray-one;
+  border-radius: 3px;
+  padding: 10px;
+
+  &::placeholder {
+    color: $gray-two;
+  }
+}
+
+.form-button {
+  border: none;
+  outline: none;
+  background-color: $blue-one;
+  color: white;
+  padding: 7px 0px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.alert {
+  color: $red-one;
+  text-align: center;
+  font-size: 14px;
+}
+
+.agree-alert {
+  color: $gray-two;
+  text-align: center;
+  font-size: 12px;
+}
+
+.agree-alert-link {
+  color: $gray-two;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.login-link {
+  color: $blue-one;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.badge {
+  width: 100%;
+  height: auto;
+  max-width: 306px;
+  max-height: 90px;
+  vertical-align: middle;
+}

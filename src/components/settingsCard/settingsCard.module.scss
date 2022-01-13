@@ -1,0 +1,59 @@
+@import './../../styles/theme.module.scss';
+
+.container-box {
+  border: 1px solid $gray-one;
+  background-color: $white-one;
+}
+
+.list {
+  list-style-type: none;
+  width: 100%;
+  max-width: 236px;
+  border-right: 1px solid $gray-one;
+}
+
+.list-item {
+  padding: 16px 16px 16px 22px;
+  margin-left: 2px;
+
+  &:hover {
+    background-color: $white-two;
+    border-left: 2px solid $gray-one;
+    margin-left: 0px;
+  }
+
+  &.selected {
+    border-left: 2px solid $black-one;
+    margin-left: 0px;
+  }
+}
+
+.link {
+  color: $black-one;
+
+  &.selected {
+    font-weight: bold;
+  }
+}
+
+.blue-button {
+  color: $blue-one;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.account-center {
+  border-top: 1px solid $gray-one;
+}
+
+.account-center-text {
+  font-size: 12px;
+  color: $gray-two;
+}
+
+.dynamic-container {
+  width: 100%;
+  max-width: 696px;
+}

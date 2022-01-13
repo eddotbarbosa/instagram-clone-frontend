@@ -1,0 +1,114 @@
+@import '../../styles/theme.module.scss';
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+}
+
+.profile-image-small {
+  max-width: 75px;
+  height: 75px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.username {
+  font-weight: lighter;
+  font-size: 28px;
+}
+
+.name {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.edit-profile {
+  margin-right: 12px;
+}
+
+.edit-profile-button {
+  background-color: transparent;
+  outline: none;
+  border: 1px solid $gray-one;
+  border-radius: 4px;
+  padding: 6px 9px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.follow-button {
+  color: $white-one;
+  background-color: $blue-one;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  padding: 6px 24px;
+  cursor: pointer;
+  font-weight: bold;
+
+  &.un {
+    color: $black-one;
+    background-color: $white-two;
+    border: 1px solid $gray-one;
+  }
+}
+
+.settings-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.settings-button-image {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
+.website {
+  color: $blue-two;
+  font-weight: bold;
+
+  &:visited {
+    color: $blue-two;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .edit-profile {
+    margin: 12px 0 0 0;
+    width: 100%;
+  }
+
+  .edit-profile-button {
+    width: 96%;
+  }
+
+  .profile-header {
+    padding-left: 12px;
+  }
+
+  .profile-bio {
+    padding-left: 12px;
+  }
+
+  .list {
+    justify-content: space-around;
+    padding: 12px 0px;
+    border-top: 1px solid $gray-one;
+    margin-top: 16px;
+    margin-bottom: 0px;
+  }
+
+  .list-item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}

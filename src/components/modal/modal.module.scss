@@ -1,0 +1,69 @@
+@import '../../styles/theme.module.scss';
+
+.modal {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba($color: #000000, $alpha: .6);
+  z-index: 3;
+}
+
+.modal-dialog {
+  width: 400px;
+  padding: 10px;
+  max-height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.modal-content-container {
+  display: flex;
+  flex-direction: column;
+
+  & .modal-content-header {
+    border-radius: 12px 12px 0px 0px;
+  }
+
+  & .modal-content-button:first-child {
+    border-radius: 12px 12px 0px 0px;
+  }
+
+  & .modal-content-button:last-child {
+    border-radius: 0px 0px 12px 12px;
+  }
+}
+
+.modal-content-header {
+  border-bottom: 1px solid $gray-one;
+  background-color: $white-one;
+  font-weight: bold;
+  padding: 15px 0px;
+  text-align: center;
+}
+
+.modal-content-button {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid $gray-one;
+  background-color: $white-one;
+  padding: 15px 0px;
+  cursor: pointer;
+
+  &.red {
+    font-weight: bold;
+    color: $red-one;
+  }
+
+  &.blue {
+    font-weight: bold;
+    color: $blue-one;
+  }
+}

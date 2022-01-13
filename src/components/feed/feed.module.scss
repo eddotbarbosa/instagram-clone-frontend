@@ -1,0 +1,83 @@
+@import '../../styles/theme.module.scss';
+
+.post-card {
+  max-width: 614px;
+}
+
+.post-card-header {
+  background-color: $white-one;
+  border-top: 1px solid $gray-one;
+  border-right: 1px solid $gray-one;
+  border-left: 1px solid $gray-one;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+}
+
+.link {
+  color: $black-one;
+  font-weight: bold;
+}
+
+.settings-button {
+  background-color: $white-one;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.button-icon {
+  outline: none;
+  border: none;
+  background-color: $white-one;
+}
+
+.likes {
+  color: $black-one;
+  font-weight: bold;
+}
+
+.post-date {
+  color: $gray-two;
+  font-size: 12px;
+}
+
+.form-field {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: $white-one;
+}
+
+.card-bottom {
+  background-color: $white-one;
+  border-right: 1px solid $gray-one;
+  border-bottom: 1px solid $gray-one;
+  border-left: 1px solid $gray-one;
+}
+
+.form-div {
+  border-top: 1px solid $gray-one;
+}
+
+.submit-button {
+  color: $blue-one;
+  background-color: $white-one;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.link-comment {
+  color: $gray-two;
+}
+
+.button-feed {
+  background-color: $white-one;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

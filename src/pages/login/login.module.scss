@@ -1,0 +1,20 @@
+.login-container {
+  width: 100%;
+  min-height: 90vh;
+}
+
+.login-card {
+  width: 350px;
+}
+
+@media (max-width: 992px) {
+  .login-card {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .login-card {
+    width: 100%;
+  }
+}

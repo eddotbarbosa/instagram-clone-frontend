@@ -1,0 +1,30 @@
+@import '../../styles/theme.module.scss';
+
+.list {
+  list-style: none;
+}
+
+.list-item {
+  color: $gray-two;
+}
+
+.list-link {
+  color: $gray-two;
+  font-size: 12px;
+}
+
+.select {
+  background-color: #f0f0f0;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  color: $gray-two;
+  width: 60px;
+  font-size: 11px;
+}
+
+.copyright {
+  color: $gray-two;
+  text-align: center;
+  font-size: 12px;
+}

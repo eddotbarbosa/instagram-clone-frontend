@@ -1,0 +1,163 @@
+.phone {
+  position: relative;
+  width: 454px;
+  height: auto;
+}
+
+.carousel {
+  position: absolute;
+  left: 33.3%;
+  top: 16%;
+}
+
+.carousel-image-1 {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  animation: fade-5 30s infinite;
+}
+
+.carousel-image-2 {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: fade-4 30s infinite;
+}
+
+.carousel-image-3 {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: fade-3 30s infinite;
+}
+
+.carousel-image-4 {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: fade-2 30s infinite;
+}
+
+.carousel-image-5 {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: fade-1 30s infinite;
+}
+
+@keyframes fade-1 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+ }
+
+ @keyframes fade-2 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+ }
+
+ @keyframes fade-3 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+ }
+
+ @keyframes fade-4 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+ }
+
+ @keyframes fade-5 {
+  0% {
+    opacity: 1;
+  }
+  20% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+ }

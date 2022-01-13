@@ -1,0 +1,24 @@
+.profile-container {
+  margin-top: 82px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-header {
+  max-width: 935px;
+  width: 100%;
+  margin-bottom: 44px;
+}
+
+.post-galery {
+  max-width: 935px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .profile-header {
+    margin-bottom: 0px;
+  }
+}

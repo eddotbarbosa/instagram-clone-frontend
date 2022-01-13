@@ -1,0 +1,47 @@
+@import '../../styles/theme.module.scss';
+
+
+.create-post-container {
+  background-color: $white-one;
+  border-radius: 8px;
+}
+
+.create-post-header {
+  font-size: 14px;
+  padding: 8px 0px;
+  border-bottom: 1px solid $gray-one;
+}
+
+.avatar {
+  max-width: 32px;
+  max-height: 32px;
+}
+
+.bg-white {
+  background-color: $white-one;
+}
+
+.text-area {
+  min-width: 100%;
+  min-height: 168px;
+
+  border: none;
+  overflow: auto;
+  outline: none;
+
+  resize: none;
+
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 14px;
+}
+
+.file-label {
+  color: $blue-one;
+  font-weight: bold;
+}
+
+.form-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
